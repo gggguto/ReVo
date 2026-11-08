@@ -1,0 +1,553 @@
+{
+  "title": "Atolls",
+  "intro": "Welcome, traveller. Two currents move between these islands. You can guide their force, mark places to return to, and let one current answer the other.",
+  "chapters": [
+    {
+      "id": "welcome",
+      "title": "Meet the two currents.",
+      "screen": "atolls",
+      "intro": "Welcome to Atolls. Two loops share a sea, but each has its own course. Guide A in red and B in cyan; let them meet, separate and find their way back.",
+      "gesture": [
+        "hold HOME",
+        "Machine",
+        "Atolls",
+        "SEL"
+      ],
+      "controls": [],
+      "tryit": "Start with one loop. Move its Start and Size until you find a small detail worth staying with. Then invite the second current in.",
+      "extra": "Atolls and Bioma are independent machines. Hold HOME \u2192 Machine to move between them.",
+      "color": ""
+    },
+    {
+      "id": "play",
+      "title": "Together, or on their own.",
+      "screen": "transport",
+      "intro": "A short PLAY/STOP press starts both loops when both are stopped. If either is running, the same short press stops both. Hold PLAY for the floating Transport panel.",
+      "gesture": [
+        "hold PLAY",
+        "bank A / first lit key",
+        "bank B / first lit key",
+        "release PLAY"
+      ],
+      "controls": [],
+      "tryit": "Hold PLAY and use the first lit Fragment key in each bank to switch A or B independently. Let one move while the other rests.",
+      "extra": "Releasing PLAY closes the panel and returns to your previous screen. The hold gesture does not also trigger the short-press action.",
+      "color": ""
+    },
+    {
+      "id": "samples",
+      "title": "Find your source waters.",
+      "screen": "atolls-samples",
+      "intro": "Turn PRESET to the Sample page. Each loop can choose one of four stored slots. They can share a sample or use different sources.",
+      "gesture": [
+        "PRESET"
+      ],
+      "controls": [
+        {
+          "n": 1,
+          "name": "Loop A slot",
+          "text": "Choose the sample slot feeding Loop A."
+        },
+        {
+          "n": 2,
+          "name": "Loop B slot",
+          "text": "Choose the sample slot feeding Loop B."
+        }
+      ],
+      "tryit": "Open Samples on this website and prepare two contrasting short clips. Save them to different slots, then assign one to each loop.",
+      "extra": "Saved slots remain on the FM-1. An empty source falls back to the built-in sound. Uploading a new sample replaces that slot; Landing destinations are associated with their sample.",
+      "color": ""
+    },
+    {
+      "id": "fragments",
+      "title": "Catch a small piece of the sea.",
+      "screen": "fragments",
+      "intro": "The keyboard offers Fragments of the selected currents: divisions, speeds and repeat gestures you can play from any page. A loop can be stopped and still answer your Fragment key.",
+      "gesture": [
+        "Fragment key",
+        "hold Reverse + Fragment"
+      ],
+      "controls": [],
+      "tryit": "Stop the transport, press a Fragment key and hold it. Release it and listen to its release tail. Now hold the first black Reverse key and play the Fragment again.",
+      "extra": "A stopped loop\u2019s Fragment is temporary: it does not leave Play enabled. With a stopped loop, Reverse alone prepares the direction; audio begins when you press a Fragment. Each bank keeps its mappings.",
+      "color": ""
+    },
+    {
+      "id": "fragment-envelope",
+      "title": "Let a Fragment leave gently.",
+      "screen": "fragments",
+      "intro": "Turn PRESET again from Fragments to set the Attack and Release of Fragment gestures. This is separate from the fades inside the continuously repeating loop.",
+      "gesture": [
+        "PRESET"
+      ],
+      "controls": [
+        {
+          "n": 1,
+          "name": "Attack",
+          "text": "How gently a pressed Fragment enters."
+        },
+        {
+          "n": 2,
+          "name": "Release",
+          "text": "How long it takes to leave after the key is released."
+        }
+      ],
+      "tryit": "With the loop stopped, play a Fragment using a longer Release. Let the key go and hear the difference from an abrupt stop.",
+      "extra": "Use ALGO to edit the other bank. The two Fragment envelopes are independent.",
+      "color": ""
+    },
+    {
+      "id": "shaping",
+      "title": "Soften the edges.",
+      "screen": "loop-shape",
+      "intro": "Press ENV to open the selected loop\u2019s fades and filter. These fades repeat within each loop window: they are not a separate note envelope.",
+      "gesture": [
+        "ENV",
+        "ALGO"
+      ],
+      "controls": [
+        {
+          "n": 1,
+          "name": "Fade In",
+          "text": "Turn clockwise to lengthen the entrance fade, up to half the loop window."
+        },
+        {
+          "n": 2,
+          "name": "Fade Out",
+          "text": "Turn counterclockwise to lengthen the exit fade. Turn clockwise to shorten it."
+        },
+        {
+          "n": 3,
+          "name": "Filter",
+          "text": "A dedicated bipolar filter for this loop. Centre is open; left is low-pass and right is high-pass."
+        }
+      ],
+      "tryit": "Begin with small fades on a short loop. Use ALGO for the other loop and give it a contrasting filter setting.",
+      "extra": "The graph shows the fades inside the window. The selected loop keeps its own settings; changing A does not reshape B.",
+      "color": ""
+    },
+    {
+      "id": "edit",
+      "title": "Shape the current.",
+      "screen": "edit",
+      "intro": "Press EDIT. This is the shoreline of a loop: where it begins, how much it contains, how fast it moves and how strongly you hear it. Use ALGO to choose A or B.",
+      "gesture": [
+        "EDIT",
+        "ALGO"
+      ],
+      "controls": [
+        {
+          "n": 1,
+          "name": "Start",
+          "text": "Move the beginning of the selected loop window."
+        },
+        {
+          "n": 2,
+          "name": "Size",
+          "text": "Change the length of its window."
+        },
+        {
+          "n": 3,
+          "name": "Speed",
+          "text": "Change playback speed and direction. Negative speed plays backwards; zero holds the read position."
+        },
+        {
+          "n": 4,
+          "name": "Level",
+          "text": "Set the selected loop\u2019s level."
+        }
+      ],
+      "tryit": "Choose a short window and lower Speed. Then cross into reverse. When you resize a reverse loop, its right edge remains anchored and the left edge moves.",
+      "extra": "The status at the top tells you which currents are playing. The Free / Sync summary describes the selected loop\u2019s timing.",
+      "color": ""
+    },
+    {
+      "id": "sync",
+      "title": "Give it a tide to follow.",
+      "screen": "sync",
+      "intro": "Press EDIT again to open Sync over the waveform. The loop restarts at its Start on the chosen clock division. This is retriggering, not time stretching.",
+      "gesture": [
+        "EDIT",
+        "EDIT"
+      ],
+      "controls": [
+        {
+          "n": 1,
+          "name": "Sync",
+          "text": "Free follows the sample\u2019s own length. Clock uses the global internal or external clock."
+        },
+        {
+          "n": 2,
+          "name": "Division",
+          "text": "The musical interval between clock-triggered restarts."
+        },
+        {
+          "n": 3,
+          "name": "Between",
+          "text": "Repeat fills the interval by looping again; Gate waits in silence if the sample ends early."
+        },
+        {
+          "n": 4,
+          "name": "Launch",
+          "text": "Start immediately, on the next beat or on the next bar."
+        }
+      ],
+      "tryit": "Use a short clip with a slow clock. Compare Repeat and Gate. Then choose an interval shorter than the clip and hear the clock restart it before its natural end.",
+      "extra": "A waiting launch displays WAIT. Stopping a loop does not stop the shared clock. Press EDIT again to close Sync.",
+      "color": ""
+    },
+    {
+      "id": "flock",
+      "title": "A reason to move.",
+      "screen": "flock",
+      "intro": "Press ARP for Flock. It decides how far a loop may travel and when it should consider its next destination.",
+      "gesture": [
+        "ARP",
+        "ALGO"
+      ],
+      "controls": [
+        {
+          "n": 1,
+          "name": "Flight",
+          "text": "The reach of a free Start-position jump. In Points or Order mode, the saved destinations take over and Flight is inactive."
+        },
+        {
+          "n": 2,
+          "name": "Chance",
+          "text": "The probability of moving when an opportunity arrives."
+        },
+        {
+          "n": 3,
+          "name": "Repeats",
+          "text": "How many turns to wait before evaluating a move."
+        },
+        {
+          "n": 4,
+          "name": "Position / Pitch",
+          "text": "Choose position travel or the available pitch variation mode. Landing\u2019s saved destinations belong to Position."
+        }
+      ],
+      "tryit": "Choose Repeats 4 and Chance 100%. Each fourth turn becomes a move. Lower Chance to 50%: if it declines, it waits another four turns before trying again.",
+      "extra": "In Clock sync, turns follow the loop\u2019s selected clock divisions. In Free, they follow real completed loop windows. Fragment retriggers do not count as complete turns.",
+      "color": ""
+    },
+    {
+      "id": "landing",
+      "title": "Mark places to return to.",
+      "screen": "landing",
+      "intro": "Press ARP again. Landing stores eight Start positions for the selected loop and sample. Saving a destination does not jump there immediately.",
+      "gesture": [
+        "ARP",
+        "ARP",
+        "SELECT",
+        "SEL"
+      ],
+      "controls": [
+        {
+          "n": 1,
+          "name": "Position",
+          "text": "Prepare a candidate Start position within the sample."
+        },
+        {
+          "n": 2,
+          "name": "Point",
+          "text": "Choose one of the eight destination slots."
+        },
+        {
+          "n": 3,
+          "name": "\u2014",
+          "text": "No parameter is assigned here."
+        },
+        {
+          "n": 4,
+          "name": "Free / Points / Order",
+          "text": "Free chooses a position within Flight. Points randomly chooses a saved destination, avoiding the previous one when possible. Order visits filled slots in sequence."
+        }
+      ],
+      "tryit": "Choose a Point, place Position on an interesting moment, select Save and press SEL. Mark two more. Return to Flock and choose how often to travel.",
+      "extra": "SELECT highlights Save or Erase; SEL executes it. Empty slots are skipped in Order. With no saved points, Points and Order show NO POINTS and keep the current position. Size and Speed are not stored in a point.",
+      "color": ""
+    },
+    {
+      "id": "vformat",
+      "title": "Let one current lead the other.",
+      "screen": "vformat",
+      "intro": "Press ARP again for V Format. The selected loop is the follower: Loop A / triggered by B means that B leads and A responds. Each direction keeps its own settings.",
+      "gesture": [
+        "ARP",
+        "ARP",
+        "ARP",
+        "ALGO"
+      ],
+      "controls": [
+        {
+          "n": 1,
+          "name": "Action",
+          "text": "Start moves to the next Landing destination and restarts. Reverse also follows Landing, then changes direction."
+        },
+        {
+          "n": 2,
+          "name": "Chance",
+          "text": "The probability that the follower responds at an opportunity."
+        },
+        {
+          "n": 3,
+          "name": "Every",
+          "text": "How many turns of the other loop to wait."
+        },
+        {
+          "n": 4,
+          "name": "Link",
+          "text": "Enable or disable this response link."
+        }
+      ],
+      "tryit": "Select A, enable Link and choose Every 4, Chance 100%. A responds after four turns of B. Change ALGO to design the opposite relationship.",
+      "extra": "Landing\u2019s Free, Points and Order determine the destination. Free uses Flight\u2019s reach, which remains editable; the destination\u2019s autonomous Flock timing is off while linked. A stopped follower stays stopped. Clock-synced conductors count their clock divisions; Free conductors count real loop ends. Fragments take priority; actions do not form instant A \u2194 B feedback chains.",
+      "color": ""
+    },
+    {
+      "id": "lfo",
+      "title": "Small movements around a point.",
+      "screen": "lfo",
+      "intro": "Press LFO to add motion to a parameter. The modulation works around its selected base value, rather than forgetting the setting you chose.",
+      "gesture": [
+        "LFO",
+        "SEL",
+        "ALGO"
+      ],
+      "controls": [
+        {
+          "n": 1,
+          "name": "Depth",
+          "text": "How far the modulation moves from the base value."
+        },
+        {
+          "n": 2,
+          "name": "Speed",
+          "text": "The speed of that movement."
+        },
+        {
+          "n": 3,
+          "name": "Route",
+          "text": "Send it to A, B or both."
+        },
+        {
+          "n": 4,
+          "name": "Target",
+          "text": "Choose Speed, Level, Pan or Start."
+        }
+      ],
+      "tryit": "Set a loop to speed 1.0 and use a small Speed modulation. Let it move to either side of that point. Then try Pan for a gentler spatial journey.",
+      "extra": "SEL starts or pauses the LFO. ALGO selects its waveform: Sine, Triangle, Sample & Hold, Saw Up, Saw Down or Drift. Press LFO again to edit the other LFO.",
+      "color": ""
+    },
+    {
+      "id": "motion",
+      "title": "Draw a journey.",
+      "screen": "motion",
+      "intro": "Press SEQ to visit Motion. Record gestures over Start, Size, Speed and Level, then let them trace the same path again.",
+      "gesture": [
+        "SEQ",
+        "REC",
+        "SELECT",
+        "SEL"
+      ],
+      "controls": [
+        {
+          "n": 1,
+          "name": "Start",
+          "text": "Draw a changing loop beginning."
+        },
+        {
+          "n": 2,
+          "name": "Size",
+          "text": "Draw the changing length."
+        },
+        {
+          "n": 3,
+          "name": "Speed",
+          "text": "Draw speed and direction."
+        },
+        {
+          "n": 4,
+          "name": "Level",
+          "text": "Draw the changing level."
+        }
+      ],
+      "tryit": "Begin with a slow Start gesture. Record it, stop the recording and use the on-screen play control to hear the path return.",
+      "extra": "SELECT highlights Record, Play/Pause or Erase; SEL executes it. The clip belongs to the loop it was recorded for; the screen tells you if you are editing the other loop.",
+      "color": ""
+    },
+    {
+      "id": "mix",
+      "title": "Give each current its place.",
+      "screen": "atolls-glo",
+      "intro": "GLO brings together gain, stereo placement and the shared clock.",
+      "gesture": [
+        "GLO"
+      ],
+      "controls": [
+        {
+          "n": 1,
+          "name": "Gain",
+          "text": "A global boost for quieter source material. Begin modestly and listen to the result."
+        },
+        {
+          "n": 2,
+          "name": "Pan A",
+          "text": "Place Loop A in the stereo field."
+        },
+        {
+          "n": 3,
+          "name": "Pan B",
+          "text": "Place Loop B independently."
+        },
+        {
+          "n": 4,
+          "name": "BPM",
+          "text": "Set the internal clock tempo, or read EXT when USB/TRS clock is selected."
+        }
+      ],
+      "tryit": "Start with A a little left and B a little right. Bring them together slowly. Space can reveal a conversation that was hidden at the centre.",
+      "extra": "Hold HOME \u2192 Settings to choose MIDI CLOCK OFF, USB or TRS. Internal BPM editing is unavailable while an external clock is selected.",
+      "color": ""
+    },
+    {
+      "id": "effects",
+      "title": "Choose which current meets the effects.",
+      "screen": "glitch",
+      "intro": "Atolls shares one effects chain. In FX, ALGO chooses A, B or A+B as the source. A loop outside that route remains dry.",
+      "gesture": [
+        "FX",
+        "ALGO",
+        "SELECT",
+        "SEL"
+      ],
+      "controls": [],
+      "tryit": "Let A pass through the effects while B stays dry. Try a short, clocked Glitch on A against an uninterrupted B. Then switch the route.",
+      "extra": "The same three FX pages are available in both machines. ALGO chooses the effect source here; it does not change the loop selected in Edit.",
+      "color": ""
+    },
+    {
+      "id": "fx-glitch",
+      "title": "A flicker in the landscape.",
+      "screen": "glitch",
+      "intro": "Press FX to enter Glitch. A moment of sound can catch, repeat and become an unexpected rhythmic detail.",
+      "gesture": [
+        "FX",
+        "SEL"
+      ],
+      "controls": [
+        {
+          "n": 1,
+          "name": "Chance",
+          "text": "How often a Glitch opportunity becomes an event."
+        },
+        {
+          "n": 2,
+          "name": "Size",
+          "text": "The captured slice length in milliseconds."
+        },
+        {
+          "n": 3,
+          "name": "Repeats",
+          "text": "How many times the slice repeats."
+        },
+        {
+          "n": 4,
+          "name": "Mix",
+          "text": "Blend the effect with the incoming sound."
+        }
+      ],
+      "tryit": "Use a small Chance first. Press SEL to change FREE to SYNC, then raise Chance to 100% with a short slice and one repeat. Listen for the clock\u2019s opportunities.",
+      "extra": "Sync quantizes the trigger opportunities to the quarter-note beat of the internal or selected MIDI clock. Size stays free in milliseconds. If a Glitch is still active, a new opportunity is skipped; it is not queued.",
+      "color": ""
+    },
+    {
+      "id": "fx-delay",
+      "title": "Traces, wear and echoes.",
+      "screen": "echo",
+      "intro": "Press FX again. Damage adds worn edges, while Delay leaves a trace of the sound behind it.",
+      "gesture": [
+        "FX",
+        "FX"
+      ],
+      "controls": [
+        {
+          "n": 1,
+          "name": "Damage",
+          "text": "Introduce degradation and subtle crackles."
+        },
+        {
+          "n": 2,
+          "name": "Time",
+          "text": "Set the delay interval."
+        },
+        {
+          "n": 3,
+          "name": "Feedback",
+          "text": "How much of each echo returns to the delay."
+        },
+        {
+          "n": 4,
+          "name": "Delay Mix",
+          "text": "Set the amount of delayed sound in the mix."
+        }
+      ],
+      "tryit": "Keep Damage subtle. Raise Delay Mix, then increase Feedback a little at a time. Leave a pause and hear what remains.",
+      "extra": "The route chosen with ALGO sends A, B or both to the shared effects. The other loop remains dry.",
+      "color": ""
+    },
+    {
+      "id": "fx-space",
+      "title": "Let the island linger.",
+      "screen": "space",
+      "intro": "Press FX again. Shape the spectrum, give the scene a room and let the tape soften its edges.",
+      "gesture": [
+        "FX",
+        "FX",
+        "FX",
+        "SEL"
+      ],
+      "controls": [
+        {
+          "n": 1,
+          "name": "Filter",
+          "text": "Centre is open. Turn left for a low-pass response, or right for high-pass."
+        },
+        {
+          "n": 2,
+          "name": "Reverb",
+          "text": "Set the reverb amount."
+        },
+        {
+          "n": 3,
+          "name": "Decay",
+          "text": "Set the reverb\u2019s lingering time."
+        },
+        {
+          "n": 4,
+          "name": "Tape",
+          "text": "Introduce tape character and movement."
+        }
+      ],
+      "tryit": "Listen with the filter open, then move a little left. Add Reverb gradually. Press SEL to compare Reverb and ICE, one at a time.",
+      "extra": "FX cycles Glitch \u2192 Echo \u2192 Space. SELECT stays within FX while this section is open. Reverb and ICE are alternative modes of the same reverb stage.",
+      "color": ""
+    },
+    {
+      "id": "midi",
+      "title": "Invite another instrument.",
+      "screen": "sync",
+      "intro": "In Settings, MIDI CLOCK and MIDI CONTROL are separate choices. You can follow an external rhythm while deciding independently where performance commands are accepted.",
+      "gesture": [
+        "hold HOME",
+        "Settings"
+      ],
+      "controls": [],
+      "tryit": "Enable MIDI CONTROL for USB or TRS. Send note 59 on MIDI channel 1: it toggles A Play/Stop. Send it again to stop. On channel 2, the same note controls B.",
+      "extra": "Channels 1 / 2 address A / B. Notes 60\u201372 play Fragment functions; Note Off releases them. CC20 Start, CC21 Size, CC22 Speed, CC23 Level, CC24 Pan. On channel 3, CC20 controls the global gain. CC123 releases held MIDI Fragment notes.",
+      "color": ""
+    }
+  ]
+}

@@ -1,0 +1,108 @@
+{
+  "birds": {
+    "id": "birds",
+    "title": "Meet Birds.",
+    "screen": "birds-0",
+    "intro": "Our first inhabitants call from the trees. A dry, low chirp may open into repeated calls or a quick, canary-like phrase. Their voices are made with FM synthesis.",
+    "gesture": [
+      "EDIT",
+      "ALGO"
+    ],
+    "controls": [
+      {
+        "n": 1,
+        "name": "Level",
+        "text": "Bring Birds closer in the mix, or let them settle behind the other inhabitants."
+      },
+      {
+        "n": 2,
+        "name": "Species",
+        "text": "Explore the voice\u2019s register and character. Turn left for lower calls, right for higher ones. The centre-marked dial makes this direction visible."
+      },
+      {
+        "n": 3,
+        "name": "Cycle",
+        "text": "Choose the cycle Birds will follow in Tame mode. In Wild, their timing is free."
+      },
+      {
+        "n": 4,
+        "name": "Wild / Tame",
+        "text": "Wild lets them wander in time. Tame gives their appearances a musical grid, following the global clock."
+      }
+    ],
+    "tryit": "Lower the other families for a moment. Move Species slowly, then switch to Tame and compare a short cycle with an uneven one. Leave a little space between each change.",
+    "extra": "Species and phrasing are different dimensions. Moving into a higher register does not simply select a different fixed recording. The small speech bubble follows the creature\u2019s activity.",
+    "color": "var(--red)",
+    "label": "Birds"
+  },
+  "insects": {
+    "id": "insects",
+    "title": "Small voices, intricate rhythms.",
+    "screen": "insects",
+    "intro": "Insects live closer to the ground: buzzing, ticking and rubbing tiny textures into the spaces between the other calls.",
+    "gesture": [
+      "ALGO"
+    ],
+    "controls": [
+      {
+        "n": 1,
+        "name": "Level",
+        "text": "Set how clearly the insects sit in the scene."
+      },
+      {
+        "n": 2,
+        "name": "Species",
+        "text": "Move through lower to higher insect registers, from left to right."
+      },
+      {
+        "n": 3,
+        "name": "Cycle",
+        "text": "In Tame, choose their own cycle. Birds and Insects can follow different cycles on the same clock."
+      },
+      {
+        "n": 4,
+        "name": "Wild / Tame",
+        "text": "Let their entrances roam freely, or invite them onto the rhythmic grid."
+      }
+    ],
+    "tryit": "Keep Birds gentle and give Insects an uneven Tame cycle. Listen for the places where their rhythms meet.",
+    "extra": "Use ALGO to move between Birds, Insects and Water. From Home, ALGO opens the family editor; within it, ALGO changes the family.",
+    "color": "var(--yellow)",
+    "label": "Insects"
+  },
+  "water": {
+    "id": "water",
+    "title": "Listen below the surface.",
+    "screen": "water",
+    "intro": "Water brings rounded plops, bubbling gestures and low, frog-like calls. It is another inhabitant of the island, separate from the continuous Ocean Tide.",
+    "gesture": [
+      "ALGO"
+    ],
+    "controls": [
+      {
+        "n": 1,
+        "name": "Level",
+        "text": "Set the presence of Water\u2019s events."
+      },
+      {
+        "n": 2,
+        "name": "Species",
+        "text": "Move from lower, rounder voices towards higher watery calls."
+      },
+      {
+        "n": 3,
+        "name": "Cycle",
+        "text": "Set Water\u2019s Tame cycle independently of the other families."
+      },
+      {
+        "n": 4,
+        "name": "Wild / Tame",
+        "text": "Choose free timing or a relationship with the global rhythm."
+      }
+    ],
+    "tryit": "Bring Water forward and move Species slowly. Then add a quiet Insect voice and let them share the space.",
+    "extra": "A low level makes a family quiet. A lower Activity setting makes it less likely to speak. Those are useful, different ways to leave room.",
+    "color": "var(--cyan)",
+    "label": "Water"
+  }
+}

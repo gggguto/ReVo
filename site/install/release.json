@@ -1,0 +1,28 @@
+{
+  "name": "ReVo \u2014 Bioma + Atolls / build2026110608 / Bioma MIDI",
+  "product": "FM-1_998",
+  "bytes": 610035,
+  "sha256": "73308ff8f1bab7c6d9c36a0eb6a74e16c2b69a757ddcca559bf12411daab5736",
+  "source_sha256": "8c0c5187ef1cd12ea0de65d677fd016d993d249d7f3aff4db16177216f2900b5",
+  "hardware_validated": true,
+  "diagnostics_build": 2026110608,
+  "diagnostics_schema": 6,
+  "variant": "bioma-midi",
+  "default_machine": "Bioma",
+  "machines": [
+    "Bioma",
+    "Atolls"
+  ],
+  "bioma_parallel": true,
+  "atolls_parallel": true,
+  "memory": {
+    "ram": 76192,
+    "pool": 286976,
+    "lowram": 21720
+  },
+  "hardware_validation": {
+    "date": "2026-11-08",
+    "reported_by": "gggguto",
+    "scope": "Author confirmed MIDI tests passed on the FM-1 for both Bioma and Atolls."
+  }
+}

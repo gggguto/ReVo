@@ -1,0 +1,245 @@
+[
+  {
+    "key": 0,
+    "pitch": 53,
+    "action": 0,
+    "label": "1/2",
+    "bank": "A",
+    "note": "F3",
+    "black": false
+  },
+  {
+    "key": 1,
+    "pitch": 54,
+    "action": 8,
+    "label": "Reverse",
+    "bank": "A",
+    "note": "F#3",
+    "black": true
+  },
+  {
+    "key": 2,
+    "pitch": 55,
+    "action": 1,
+    "label": "1/4",
+    "bank": "A",
+    "note": "G3",
+    "black": false
+  },
+  {
+    "key": 3,
+    "pitch": 56,
+    "action": 9,
+    "label": "Half",
+    "bank": "A",
+    "note": "G#3",
+    "black": true
+  },
+  {
+    "key": 4,
+    "pitch": 57,
+    "action": 2,
+    "label": "1/8",
+    "bank": "A",
+    "note": "A3",
+    "black": false
+  },
+  {
+    "key": 5,
+    "pitch": 58,
+    "action": 10,
+    "label": "Double",
+    "bank": "A",
+    "note": "A#3",
+    "black": true
+  },
+  {
+    "key": 6,
+    "pitch": 59,
+    "action": 3,
+    "label": "1/16",
+    "bank": "A",
+    "note": "B3",
+    "black": false
+  },
+  {
+    "key": 7,
+    "pitch": 60,
+    "action": 4,
+    "label": "1/32",
+    "bank": "A",
+    "note": "C4",
+    "black": false
+  },
+  {
+    "key": 8,
+    "pitch": 61,
+    "action": 11,
+    "label": "1/8T",
+    "bank": "A",
+    "note": "C#4",
+    "black": true
+  },
+  {
+    "key": 9,
+    "pitch": 62,
+    "action": 5,
+    "label": "1/64",
+    "bank": "A",
+    "note": "D4",
+    "black": false
+  },
+  {
+    "key": 10,
+    "pitch": 63,
+    "action": 12,
+    "label": "1/16T",
+    "bank": "A",
+    "note": "D#4",
+    "black": true
+  },
+  {
+    "key": 11,
+    "pitch": 64,
+    "action": 6,
+    "label": "1/128",
+    "bank": "A",
+    "note": "E4",
+    "black": false
+  },
+  {
+    "key": 12,
+    "pitch": 65,
+    "action": 7,
+    "label": "1/256",
+    "bank": "A",
+    "note": "F4",
+    "black": false
+  },
+  {
+    "key": 13,
+    "pitch": 66,
+    "action": 13,
+    "label": "Divider",
+    "bank": "divider",
+    "note": "F#4",
+    "black": true
+  },
+  {
+    "key": 14,
+    "pitch": 67,
+    "action": 0,
+    "label": "1/2",
+    "bank": "B",
+    "note": "G4",
+    "black": false
+  },
+  {
+    "key": 15,
+    "pitch": 68,
+    "action": 8,
+    "label": "Reverse",
+    "bank": "B",
+    "note": "G#4",
+    "black": true
+  },
+  {
+    "key": 16,
+    "pitch": 69,
+    "action": 1,
+    "label": "1/4",
+    "bank": "B",
+    "note": "A4",
+    "black": false
+  },
+  {
+    "key": 17,
+    "pitch": 70,
+    "action": 9,
+    "label": "Half",
+    "bank": "B",
+    "note": "A#4",
+    "black": true
+  },
+  {
+    "key": 18,
+    "pitch": 71,
+    "action": 2,
+    "label": "1/8",
+    "bank": "B",
+    "note": "B4",
+    "black": false
+  },
+  {
+    "key": 19,
+    "pitch": 72,
+    "action": 3,
+    "label": "1/16",
+    "bank": "B",
+    "note": "C5",
+    "black": false
+  },
+  {
+    "key": 20,
+    "pitch": 73,
+    "action": 10,
+    "label": "Double",
+    "bank": "B",
+    "note": "C#5",
+    "black": true
+  },
+  {
+    "key": 21,
+    "pitch": 74,
+    "action": 4,
+    "label": "1/32",
+    "bank": "B",
+    "note": "D5",
+    "black": false
+  },
+  {
+    "key": 22,
+    "pitch": 75,
+    "action": 11,
+    "label": "1/8T",
+    "bank": "B",
+    "note": "D#5",
+    "black": true
+  },
+  {
+    "key": 23,
+    "pitch": 76,
+    "action": 5,
+    "label": "1/64",
+    "bank": "B",
+    "note": "E5",
+    "black": false
+  },
+  {
+    "key": 24,
+    "pitch": 77,
+    "action": 6,
+    "label": "1/128",
+    "bank": "B",
+    "note": "F5",
+    "black": false
+  },
+  {
+    "key": 25,
+    "pitch": 78,
+    "action": 12,
+    "label": "1/16T",
+    "bank": "B",
+    "note": "F#5",
+    "black": true
+  },
+  {
+    "key": 26,
+    "pitch": 79,
+    "action": 7,
+    "label": "1/256",
+    "bank": "B",
+    "note": "G5",
+    "black": false
+  }
+]

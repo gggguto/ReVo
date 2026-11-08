@@ -1,0 +1,7 @@
+{
+  "discoverySectionUnchanged": true,
+  "discoverySectionSha256": "d9c90c40ef6cf9ef8cd3612ae6de43e96fb604460874870db081cca29fa4ba7b",
+  "header": "Global shared header, non-sticky on every page",
+  "homeIntroGesture": "HOME \u2192 PLAY/STOP",
+  "seedIntroduction": "Home SEL only; no separate early Seed page"
+}

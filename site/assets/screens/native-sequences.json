@@ -1,0 +1,36 @@
+{
+  "distance": {
+    "frames": 48,
+    "omittedPopupFrames": [],
+    "intervalMs": 400,
+    "distinctGraphStates": 45,
+    "packageSha256": "fcf42a2c9f88c214b361dbadb4b3300626ab3fd8d13d6d4eb6852b1da7b8a856",
+    "source": "Real firmware LCD captures, after temporary value popup expired."
+  },
+  "drift": {
+    "frames": 48,
+    "omittedPopupFrames": [],
+    "intervalMs": 300,
+    "distinctGraphStates": 48,
+    "packageSha256": "fcf42a2c9f88c214b361dbadb4b3300626ab3fd8d13d6d4eb6852b1da7b8a856",
+    "source": "Real firmware LCD captures, after temporary value popup expired."
+  },
+  "beam": {
+    "frames": 47,
+    "omittedPopupFrames": [
+      0
+    ],
+    "intervalMs": 150,
+    "distinctGraphStates": 12,
+    "packageSha256": "fcf42a2c9f88c214b361dbadb4b3300626ab3fd8d13d6d4eb6852b1da7b8a856",
+    "source": "Real firmware LCD captures, after temporary value popup expired."
+  },
+  "resonance": {
+    "frames": 48,
+    "omittedPopupFrames": [],
+    "intervalMs": 180,
+    "distinctGraphStates": 18,
+    "packageSha256": "fcf42a2c9f88c214b361dbadb4b3300626ab3fd8d13d6d4eb6852b1da7b8a856",
+    "source": "Real firmware LCD captures, after temporary value popup expired."
+  }
+}

@@ -1,0 +1,310 @@
+{
+  "build": 2026110608,
+  "channels": [
+    {
+      "channel": "1",
+      "name": "Global & Wind",
+      "cc": [
+        {
+          "number": 20,
+          "parameter": "Global Density",
+          "range": "0\u2013100%"
+        },
+        {
+          "number": 21,
+          "parameter": "Global Variety",
+          "range": "0\u2013100%"
+        },
+        {
+          "number": 22,
+          "parameter": "Wind Level",
+          "range": "0\u2013100%"
+        },
+        {
+          "number": 23,
+          "parameter": "Wind Preset",
+          "range": "Literal index 0\u20137, in the same order as the Wind screen"
+        },
+        {
+          "number": 24,
+          "parameter": "Wind Attack",
+          "range": "10\u201310,000 ms"
+        },
+        {
+          "number": 25,
+          "parameter": "Wind Release",
+          "range": "20\u201320,000 ms"
+        },
+        {
+          "number": 26,
+          "parameter": "Wind FX",
+          "range": "0\u201363 OFF; 64\u2013127 ON"
+        },
+        {
+          "number": 27,
+          "parameter": "Ocean Tide Level",
+          "range": "0\u2013100%"
+        },
+        {
+          "number": 28,
+          "parameter": "Response Amount",
+          "range": "0\u2013100%"
+        },
+        {
+          "number": 29,
+          "parameter": "Response Spacing",
+          "range": "0\u2013100%"
+        },
+        {
+          "number": 30,
+          "parameter": "Wind Harmony Mode",
+          "range": "0 Chromatic; 1 Scale; 2 Chords"
+        },
+        {
+          "number": 31,
+          "parameter": "Wind Chord Type",
+          "range": "0 Triad; 1 Seventh; 2 Sus2; 3 Sus4"
+        },
+        {
+          "number": 32,
+          "parameter": "Internal BPM",
+          "range": "40\u2013240 BPM; ignored while external MIDI Clock is selected"
+        }
+      ]
+    },
+    {
+      "channel": "2 / 3 / 4",
+      "name": "Birds / Insects / Water",
+      "cc": [
+        {
+          "number": 20,
+          "parameter": "Level",
+          "range": "0\u2013100%"
+        },
+        {
+          "number": 21,
+          "parameter": "Species",
+          "range": "0\u2013100%; lower register to higher register"
+        },
+        {
+          "number": 22,
+          "parameter": "Activity",
+          "range": "0\u2013100%"
+        },
+        {
+          "number": 23,
+          "parameter": "Cycle",
+          "range": "Literal index 0\u201318; see the cycle list below"
+        },
+        {
+          "number": 24,
+          "parameter": "Wild / Tame",
+          "range": "0\u201363 Wild; 64\u2013127 Tame"
+        },
+        {
+          "number": 25,
+          "parameter": "Delay Send",
+          "range": "0\u2013100%"
+        },
+        {
+          "number": 26,
+          "parameter": "Reverb Send",
+          "range": "0\u2013100%"
+        },
+        {
+          "number": 27,
+          "parameter": "Distance",
+          "range": "0\u2013100%"
+        },
+        {
+          "number": 28,
+          "parameter": "Motion",
+          "range": "0\u2013100%"
+        },
+        {
+          "number": 29,
+          "parameter": "Width",
+          "range": "0\u2013100%"
+        },
+        {
+          "number": 30,
+          "parameter": "Distance Enabled",
+          "range": "0\u201363 OFF; 64\u2013127 ON"
+        }
+      ]
+    },
+    {
+      "channel": "5",
+      "name": "Resonance",
+      "cc": [
+        {
+          "number": 20,
+          "parameter": "Level",
+          "range": "0\u2013100%"
+        },
+        {
+          "number": 21,
+          "parameter": "Material",
+          "range": "0\u2013100%"
+        },
+        {
+          "number": 22,
+          "parameter": "Decay",
+          "range": "0\u2013100% of the native Decay control"
+        },
+        {
+          "number": 23,
+          "parameter": "Tuned",
+          "range": "0\u201363 OFF; 64\u2013127 ON"
+        },
+        {
+          "number": 24,
+          "parameter": "Mix",
+          "range": "0% creatures only; 50% balance; 100% resonance only"
+        },
+        {
+          "number": 25,
+          "parameter": "Object",
+          "range": "0 Wood; 1 Strings; 2 Glass; 3 Metal"
+        },
+        {
+          "number": 26,
+          "parameter": "Trigger Sources",
+          "range": "Literal bitmask 0\u20137: Birds = 1, Insects = 2, Water = 4; add them to combine"
+        },
+        {
+          "number": 27,
+          "parameter": "Delay Send",
+          "range": "0\u2013100%"
+        },
+        {
+          "number": 28,
+          "parameter": "Reverb Send",
+          "range": "0\u2013100%"
+        }
+      ]
+    },
+    {
+      "channel": "6",
+      "name": "Effects",
+      "cc": [
+        {
+          "number": 20,
+          "parameter": "Glitch Chance",
+          "range": "0\u2013100%"
+        },
+        {
+          "number": 21,
+          "parameter": "Glitch Size",
+          "range": "10\u2013300 ms; independent of clock division"
+        },
+        {
+          "number": 22,
+          "parameter": "Glitch Repeats",
+          "range": "1\u201316"
+        },
+        {
+          "number": 23,
+          "parameter": "Glitch Mix",
+          "range": "0\u2013100%"
+        },
+        {
+          "number": 24,
+          "parameter": "Glitch Clock Sync",
+          "range": "0\u201363 Free; 64\u2013127 Clock"
+        },
+        {
+          "number": 25,
+          "parameter": "Damage",
+          "range": "0\u2013100%"
+        },
+        {
+          "number": 26,
+          "parameter": "Delay Time",
+          "range": "10\u20131,000 ms"
+        },
+        {
+          "number": 27,
+          "parameter": "Delay Feedback",
+          "range": "0\u201390%"
+        },
+        {
+          "number": 28,
+          "parameter": "Delay Mix",
+          "range": "0\u2013100%"
+        },
+        {
+          "number": 29,
+          "parameter": "Filter",
+          "range": "0 low-pass end; 64 open centre; 127 high-pass end"
+        },
+        {
+          "number": 30,
+          "parameter": "Reverb Amount",
+          "range": "0\u2013100%"
+        },
+        {
+          "number": 31,
+          "parameter": "Reverb Decay",
+          "range": "0\u2013100% of the native Decay control"
+        },
+        {
+          "number": 32,
+          "parameter": "Tape",
+          "range": "0\u2013100%"
+        },
+        {
+          "number": 33,
+          "parameter": "Reverb Type",
+          "range": "0\u201363 Reverb; 64\u2013127 ICE"
+        }
+      ]
+    },
+    {
+      "channel": "7",
+      "name": "Drift & Beam",
+      "cc": [
+        {
+          "number": 20,
+          "parameter": "Drift Amount",
+          "range": "0\u2013100%"
+        },
+        {
+          "number": 21,
+          "parameter": "Drift Period",
+          "range": "0: 1 beat; 1: 2; 2: 4; 3: 8; 4: 16; 5: 32; 6: 64 beats"
+        },
+        {
+          "number": 22,
+          "parameter": "Drift Range",
+          "range": "Literal 0\u201312 semitones"
+        },
+        {
+          "number": 23,
+          "parameter": "Drift Hold",
+          "range": "0\u201363 OFF; 64\u2013127 ON"
+        },
+        {
+          "number": 24,
+          "parameter": "Beam Depth",
+          "range": "0\u2013100%; zero leaves the chord untouched"
+        },
+        {
+          "number": 25,
+          "parameter": "Beam Length",
+          "range": "Literal 1\u201316 events; value 0 selects 1"
+        },
+        {
+          "number": 26,
+          "parameter": "Beam Space",
+          "range": "0: 1/16; 1: 1/8; 2: 1/4; 3: 1/2; 4: 1 bar; 5: 2 bars"
+        },
+        {
+          "number": 27,
+          "parameter": "Beam Tame / Wild",
+          "range": "0\u201363 Tame; 64\u2013127 Wild"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,599 @@
+{
+  "title": "Bioma",
+  "intro": "Welcome, traveller. This is our island: a home for fantastic creatures, where a small gesture can change the whole scene. Let us meet its inhabitants.",
+  "chapters": [
+    {
+      "id": "welcome",
+      "title": "Wake the island.",
+      "screen": "home",
+      "intro": "Welcome to our island. This is Bioma: a home for curious creatures, shifting tides and winds that answer your touch. Press PLAY/STOP and listen as the inhabitants wake up.",
+      "gesture": [
+        "HOME",
+        "PLAY/STOP"
+      ],
+      "controls": [
+        {
+          "n": 1,
+          "name": "Birds",
+          "text": "The level of calls, chirps and whistles."
+        },
+        {
+          "n": 2,
+          "name": "Insects",
+          "text": "The level of buzzing and tiny rhythmic voices."
+        },
+        {
+          "n": 3,
+          "name": "Water",
+          "text": "The level of watery creatures, bubbles and low calls."
+        },
+        {
+          "n": 4,
+          "name": "Density",
+          "text": "How busy the inhabitants become. This is the same global Density you will find in GLO."
+        }
+      ],
+      "tryit": "Begin with Density low. Bring up one family at a time. Notice how level changes how present a voice feels, while Density changes how often the island speaks.",
+      "extra": "These are synthesized voices, not a recording of a forest. You are shaping a small world as it happens. Press SEL on Home for another Seed; its GLO control is introduced later.",
+      "color": ""
+    },
+    {
+      "id": "inhabitants",
+      "title": "Meet our Inhabitants",
+      "screen": "inhabitants-birds-tame-00",
+      "intro": "Our first inhabitants call from the trees. A dry, low chirp may open into repeated calls or a quick, canary-like phrase. Their voices are made with FM synthesis.",
+      "gesture": [
+        "EDIT",
+        "ALGO"
+      ],
+      "controls": [
+        {
+          "n": 1,
+          "name": "Level",
+          "text": "Bring Birds closer in the mix, or let them settle behind the other inhabitants."
+        },
+        {
+          "n": 2,
+          "name": "Species",
+          "text": "Explore the voice\u2019s register and character. Turn left for lower calls, right for higher ones. The centre-marked dial makes this direction visible."
+        },
+        {
+          "n": 3,
+          "name": "Cycle",
+          "text": "Choose the cycle Birds will follow in Tame mode. In Wild, their timing is free."
+        },
+        {
+          "n": 4,
+          "name": "Wild / Tame",
+          "text": "Wild lets them wander in time. Tame gives their appearances a musical grid, following the global clock."
+        }
+      ],
+      "tryit": "Lower the other families for a moment. Move Species slowly, then switch to Tame and compare a short cycle with an uneven one. Leave a little space between each change.",
+      "extra": "Species and phrasing are different dimensions. Moving into a higher register does not simply select a different fixed recording. The small speech bubble follows the creature\u2019s activity.",
+      "color": "var(--red)",
+      "label": "Birds"
+    },
+    {
+      "id": "setup",
+      "title": "Let each inhabitant breathe.",
+      "screen": "birds-setup",
+      "intro": "Press EDIT again while editing a family. Its Setup page opens: a quieter way to decide how active that inhabitant should be, and how much of its sound reaches the effects.",
+      "gesture": [
+        "EDIT",
+        "EDIT"
+      ],
+      "controls": [
+        {
+          "n": 1,
+          "name": "Activity",
+          "text": "Set this family\u2019s activity. Turn it down to make the inhabitant calmer without changing its sound level."
+        },
+        {
+          "n": 2,
+          "name": "Delay",
+          "text": "Send this family to the shared Delay."
+        },
+        {
+          "n": 3,
+          "name": "Verb",
+          "text": "Send this family to the shared Reverb / ICE."
+        }
+      ],
+      "tryit": "Keep the global Density steady. Lower Birds Activity and raise Water Activity. Notice how the focus of the island changes without simply turning one family louder.",
+      "extra": "Press EDIT again to return. Each family keeps its own Activity and sends. FX sends feed shared effects; they do not create a separate effect engine for every inhabitant.",
+      "color": ""
+    },
+    {
+      "id": "ocean",
+      "title": "The tide around us.",
+      "screen": "ocean",
+      "intro": "Press LFO to visit Ocean Tide. Here the island meets a continuous wash of sea, gently rising and falling. This is an amplitude tide: its LFO moves the level.",
+      "gesture": [
+        "LFO"
+      ],
+      "controls": [
+        {
+          "n": 1,
+          "name": "Level",
+          "text": "Set the underlying level of the ocean."
+        },
+        {
+          "n": 2,
+          "name": "Depth",
+          "text": "Set how deeply the tide swells. At zero, this modulation is inactive."
+        },
+        {
+          "n": 3,
+          "name": "Speed",
+          "text": "Choose how quickly the tide moves."
+        },
+        {
+          "n": 4,
+          "name": "Shape",
+          "text": "Change the shape of its rise and fall."
+        }
+      ],
+      "tryit": "Keep Level low, add a little Depth and slow the tide down. Let it become the background, rather than another voice competing for attention.",
+      "extra": "Ocean Tide follows the late Filter \u2192 Reverb / ICE \u2192 Tape path. It does not enter Glitch, Damage or Delay. There is no separate SEL send page.",
+      "color": "var(--cyan)"
+    },
+    {
+      "id": "global",
+      "title": "The climate of the whole island.",
+      "screen": "glo",
+      "intro": "GLO gathers the settings that shape the larger scene. Density is shared with Home; the other controls change the variety, starting choices and pace of your world.",
+      "gesture": [
+        "GLO"
+      ],
+      "controls": [
+        {
+          "n": 1,
+          "name": "Density",
+          "text": "The global activity of Birds, Insects and Water. Use family Activity in Setup when one inhabitant needs more or less space."
+        },
+        {
+          "n": 2,
+          "name": "Variety",
+          "text": "How much variation the generative voices introduce into their events."
+        },
+        {
+          "n": 3,
+          "name": "Seed",
+          "text": "Choose the starting number for generative choices, from 0 to 999."
+        },
+        {
+          "n": 4,
+          "name": "BPM",
+          "text": "Set the internal tempo. With an external clock selected, the display reads EXT and follows that source."
+        }
+      ],
+      "tryit": "Find a calm Density first. Increase Variety without changing the levels. Then return to a familiar Seed and explore it with a different tempo.",
+      "extra": "For external timing, hold HOME, choose Settings and select USB or TRS under MIDI CLOCK. Choose OFF to return to the internal BPM. Selecting an external clock requires that source to send clock pulses.",
+      "color": ""
+    },
+    {
+      "id": "dialogues",
+      "title": "Give the calls an answer.",
+      "screen": "dialogues",
+      "intro": "Press ARP to open Response: the island\u2019s dialogue page. The inhabitants begin taking turns, leaving a call for another family to answer.",
+      "gesture": [
+        "ARP"
+      ],
+      "controls": [
+        {
+          "n": 1,
+          "name": "Amount",
+          "text": "How strongly events become connected into call-and-response exchanges. At zero, the families make their own independent calls."
+        },
+        {
+          "n": 2,
+          "name": "Spacing",
+          "text": "The space between the opening call and its reply. More spacing gives the conversation more room."
+        }
+      ],
+      "tryit": "Start with a small Amount and listen for replies. Increase Spacing until the silences become part of the conversation.",
+      "extra": "Responses follow eligible families: a family with no level or Activity is not a useful conversation partner. Tame replies take the clock into account; Wild replies use free time.",
+      "color": ""
+    },
+    {
+      "id": "distance",
+      "title": "Near, far, and moving.",
+      "screen": "distance",
+      "intro": "Press ARP again to enter Distance. Now choose an inhabitant with ALGO and give its voice a place in the landscape.",
+      "gesture": [
+        "ARP",
+        "ARP",
+        "ALGO"
+      ],
+      "controls": [
+        {
+          "n": 1,
+          "name": "Dist",
+          "text": "Move the selected family farther away. Its sound becomes softer, darker and less immediate."
+        },
+        {
+          "n": 2,
+          "name": "Motion",
+          "text": "Introduce movement in depth and stereo position."
+        },
+        {
+          "n": 3,
+          "name": "Width",
+          "text": "Set the spread of that family\u2019s spatial position."
+        },
+        {
+          "n": 4,
+          "name": "On / Off",
+          "text": "Enable or bypass Distance for the selected family."
+        }
+      ],
+      "tryit": "Choose Water, turn the movement on with knob 4 and add a little Motion. Switch to Birds with ALGO and give them a different distance.",
+      "extra": "The settings belong to the selected family. ARP alternates Response and Distance; ALGO chooses which inhabitant you are placing.",
+      "color": "var(--cyan)"
+    },
+    {
+      "id": "wind",
+      "title": "A breeze at your fingertips.",
+      "screen": "wind",
+      "intro": "Return Home and play a key. This is Wind: the harmonic voice moving through our island. Turn PRESET to open its page.",
+      "gesture": [
+        "HOME",
+        "keyboard",
+        "PRESET"
+      ],
+      "controls": [
+        {
+          "n": 1,
+          "name": "Level",
+          "text": "Set the level of the Wind you play."
+        },
+        {
+          "n": 2,
+          "name": "Preset",
+          "text": "Choose Breeze, Mist, Glass, Zephyr, Choir, Venturi, Dune or Nocturne."
+        },
+        {
+          "n": 3,
+          "name": "\u2014",
+          "text": "No parameter is assigned here."
+        },
+        {
+          "n": 4,
+          "name": "FX",
+          "text": "Choose whether Wind enters its effects path."
+        }
+      ],
+      "tryit": "Hold a note and move slowly between the presets. Imagine a breeze through leaves, air between rocks, wind over sand, or a quiet night at sea.",
+      "extra": "Wind FX ON follows Filter \u2192 Reverb / ICE \u2192 Tape. It bypasses Glitch, Damage and Delay. With FX OFF, Wind stays outside that effects path.",
+      "color": ""
+    },
+    {
+      "id": "chords",
+      "title": "Let the wind find harmony.",
+      "screen": "chords",
+      "intro": "Turn PRESET again. Wind\u2019s harmony page lets a single gesture become a note within a scale, or a chord carried by the breeze.",
+      "gesture": [
+        "PRESET",
+        "keyboard"
+      ],
+      "controls": [
+        {
+          "n": 1,
+          "name": "Mode",
+          "text": "OFF leaves the keyboard free. SCALE maps notes into the selected scale. CHORD builds harmony from your key presses."
+        },
+        {
+          "n": 2,
+          "name": "Key",
+          "text": "Choose the root key."
+        },
+        {
+          "n": 3,
+          "name": "Scale",
+          "text": "Choose the harmonic scale."
+        },
+        {
+          "n": 4,
+          "name": "Chord",
+          "text": "In CHORD mode, choose Triad, Seventh, Sus2 or Sus4."
+        }
+      ],
+      "tryit": "Choose SCALE and play a few keys. Then try CHORD: keep the same root and listen to the change from Triad to Seventh.",
+      "extra": "Wind uses up to three simultaneous synthesis voices in this build. The choice of scale, key and chord shapes those existing voices rather than adding another layer.",
+      "color": ""
+    },
+    {
+      "id": "envelope",
+      "title": "How the wind arrives and leaves.",
+      "screen": "envelope",
+      "intro": "Turn PRESET once more to shape Wind\u2019s envelope. A gentle entrance and a lingering departure can change the feeling of the same note.",
+      "gesture": [
+        "PRESET",
+        "keyboard"
+      ],
+      "controls": [
+        {
+          "n": 1,
+          "name": "Attack",
+          "text": "How slowly the sound rises after a note is played."
+        },
+        {
+          "n": 2,
+          "name": "Release",
+          "text": "How long it fades after you let the note go."
+        }
+      ],
+      "tryit": "Play a short note with a slow Attack. Then hold it, release it and listen to the tail. Compare a brief Release with a long one.",
+      "extra": "Attack ranges from 10 ms to 10 s; Release from 20 ms to 20 s. Turn PRESET again to return to Wind.",
+      "color": ""
+    },
+    {
+      "id": "drift",
+      "title": "Harmony, slowly changing.",
+      "screen": "drift",
+      "intro": "Press SEQ to open Drift. The notes you play become the starting point for small harmonic journeys.",
+      "gesture": [
+        "SEQ",
+        "keyboard"
+      ],
+      "controls": [
+        {
+          "n": 1,
+          "name": "Amount",
+          "text": "The likelihood of a voice moving at a Drift opportunity."
+        },
+        {
+          "n": 2,
+          "name": "Period",
+          "text": "How often Drift considers a change, measured against the clock."
+        },
+        {
+          "n": 3,
+          "name": "Range",
+          "text": "How far a voice may travel from its original note, in semitones."
+        },
+        {
+          "n": 4,
+          "name": "Hold",
+          "text": "Keep the played note or chord after you release the keys. A new chord replaces the held one; Drift continues around it."
+        }
+      ],
+      "tryit": "Play a chord, turn Hold on and let go. Begin with a small Range and a long Period. Replace the chord and follow the next journey.",
+      "extra": "Hold is a note latch, not an audio Freeze. Turn Hold off to release it. Pressing STOP also releases Hold.",
+      "color": ""
+    },
+    {
+      "id": "beam",
+      "title": "Little phrases in the breeze.",
+      "screen": "beam",
+      "intro": "Press SEQ again to visit Beam. It articulates Wind\u2019s existing voices into rhythmic phrases, without adding more notes to its polyphony.",
+      "gesture": [
+        "SEQ",
+        "SEQ"
+      ],
+      "controls": [
+        {
+          "n": 1,
+          "name": "Depth",
+          "text": "The strength of amplitude articulation. At zero, Beam leaves Wind alone."
+        },
+        {
+          "n": 2,
+          "name": "Length",
+          "text": "The number of events in the phrase before it restarts, from 1 to 16. This is not a voice count."
+        },
+        {
+          "n": 3,
+          "name": "Space",
+          "text": "The interval between events: 1/16, 1/8, 1/4, 1/2, 1 bar or 2 bars."
+        },
+        {
+          "n": 4,
+          "name": "Tame / Wild",
+          "text": "Tame places events on the BPM grid. Wild lets their duration and spacing vary."
+        }
+      ],
+      "tryit": "Hold a chord, choose a short Length and start with low Depth. Open Space and hear how the gaps change the phrase.",
+      "extra": "SEQ alternates Drift and Beam. The display follows actual articulation events; these traces are not extra oscillators.",
+      "color": ""
+    },
+    {
+      "id": "resonance",
+      "title": "Objects that answer.",
+      "screen": "resonance",
+      "intro": "Press ENV. Birds, Insects and Water can now awaken resonant objects around the island: hollow wood, strings, glass or metal.",
+      "gesture": [
+        "ENV"
+      ],
+      "controls": [
+        {
+          "n": 1,
+          "name": "Level",
+          "text": "The level of the resonant response."
+        },
+        {
+          "n": 2,
+          "name": "Material",
+          "text": "Change the timbre within the selected Object\u2019s identity."
+        },
+        {
+          "n": 3,
+          "name": "Decay",
+          "text": "How long the object rings after an excitation."
+        },
+        {
+          "n": 4,
+          "name": "Tuned / Free",
+          "text": "Choose whether the response follows harmonic tuning or its free object character."
+        }
+      ],
+      "tryit": "Begin with Wood and a short Decay. Let a few calls strike it. Then lengthen the Decay and listen to the space between the calls.",
+      "extra": "The yellow lines respond to excitation and damping. They settle when the object has no energy; Material also changes their movement.",
+      "color": "var(--yellow)"
+    },
+    {
+      "id": "objects",
+      "title": "Choose what the island is made of.",
+      "screen": "balance",
+      "intro": "Press ENV again to open Presets and Balance. The object defines an identity; Material, on the first page, explores its surface and colour.",
+      "gesture": [
+        "ENV",
+        "ENV"
+      ],
+      "controls": [
+        {
+          "n": 1,
+          "name": "Mix",
+          "text": "Left: only the inhabitants. Centre: both inhabitants and Resonance. Right: only Resonance."
+        },
+        {
+          "n": 2,
+          "name": "Object",
+          "text": "Choose Wood, Strings, Glass or Metal."
+        }
+      ],
+      "tryit": "Turn Mix fully towards Resonance. Even when you cannot hear the dry creatures, their internal events still awaken the object. Switch Object and listen to its different way of answering.",
+      "extra": "Wind and Ocean Tide stay outside this animals / Resonance balance. Wood is short and hollow; Strings can linger; Glass and Metal have their own ringing identities.",
+      "color": "var(--yellow)"
+    },
+    {
+      "id": "triggers",
+      "title": "Who wakes the objects?",
+      "screen": "sources",
+      "intro": "Press ENV once more. Here you choose which inhabitants can excite Resonance, and where the resonant sound is sent.",
+      "gesture": [
+        "ENV",
+        "ENV",
+        "ENV",
+        "SEL"
+      ],
+      "controls": [
+        {
+          "n": 1,
+          "name": "Source",
+          "text": "Move the cursor over Birds, Insects or Water. Press SEL to mark or unmark that family. Combine the sources you want."
+        },
+        {
+          "n": 2,
+          "name": "Delay",
+          "text": "Send the resonant response to Delay."
+        },
+        {
+          "n": 3,
+          "name": "Verb",
+          "text": "Send the resonant response to Reverb / ICE."
+        }
+      ],
+      "tryit": "Mark only Insects and let their small events play the object. Add Water, then unmark Insects. Notice what changes even when the object itself stays the same.",
+      "extra": "Source chooses the excitation, not which dry family is audible. The two sends act on the resonant result. Press ENV to return to the first page.",
+      "color": "var(--yellow)"
+    },
+    {
+      "id": "glitch",
+      "title": "A flicker in the landscape.",
+      "screen": "glitch",
+      "intro": "Press FX to enter Glitch. A moment of sound can catch, repeat and become an unexpected rhythmic detail.",
+      "gesture": [
+        "FX",
+        "SEL"
+      ],
+      "controls": [
+        {
+          "n": 1,
+          "name": "Chance",
+          "text": "How often a Glitch opportunity becomes an event."
+        },
+        {
+          "n": 2,
+          "name": "Size",
+          "text": "The captured slice length in milliseconds."
+        },
+        {
+          "n": 3,
+          "name": "Repeats",
+          "text": "How many times the slice repeats."
+        },
+        {
+          "n": 4,
+          "name": "Mix",
+          "text": "Blend the effect with the incoming sound."
+        }
+      ],
+      "tryit": "Use a small Chance first. Press SEL to change FREE to SYNC, then raise Chance to 100% with a short slice and one repeat. Listen for the clock\u2019s opportunities.",
+      "extra": "Sync quantizes the trigger opportunities to the quarter-note beat of the internal or selected MIDI clock. Size stays free in milliseconds. If a Glitch is still active, a new opportunity is skipped; it is not queued.",
+      "color": ""
+    },
+    {
+      "id": "delay",
+      "title": "Traces, wear and echoes.",
+      "screen": "echo",
+      "intro": "Press FX again. Damage adds worn edges, while Delay leaves a trace of the sound behind it.",
+      "gesture": [
+        "FX",
+        "FX"
+      ],
+      "controls": [
+        {
+          "n": 1,
+          "name": "Damage",
+          "text": "Introduce degradation and subtle crackles."
+        },
+        {
+          "n": 2,
+          "name": "Time",
+          "text": "Set the delay interval."
+        },
+        {
+          "n": 3,
+          "name": "Feedback",
+          "text": "How much of each echo returns to the delay."
+        },
+        {
+          "n": 4,
+          "name": "Delay Mix",
+          "text": "Set the amount of delayed sound in the mix."
+        }
+      ],
+      "tryit": "Keep Damage subtle. Raise Delay Mix, then increase Feedback a little at a time. Leave a pause and hear what remains.",
+      "extra": "A source needs a Delay send to feed the shared delay. Wind and Ocean Tide bypass this part of the chain.",
+      "color": ""
+    },
+    {
+      "id": "space",
+      "title": "Let the island linger.",
+      "screen": "space",
+      "intro": "Press FX again. Shape the spectrum, give the scene a room and let the tape soften its edges.",
+      "gesture": [
+        "FX",
+        "FX",
+        "FX",
+        "SEL"
+      ],
+      "controls": [
+        {
+          "n": 1,
+          "name": "Filter",
+          "text": "Centre is open. Turn left for a low-pass response, or right for high-pass."
+        },
+        {
+          "n": 2,
+          "name": "Reverb",
+          "text": "Set the reverb amount."
+        },
+        {
+          "n": 3,
+          "name": "Decay",
+          "text": "Set the reverb\u2019s lingering time."
+        },
+        {
+          "n": 4,
+          "name": "Tape",
+          "text": "Introduce tape character and movement."
+        }
+      ],
+      "tryit": "Listen with the filter open, then move a little left. Add Reverb gradually. Press SEL to compare Reverb and ICE, one at a time.",
+      "extra": "FX cycles Glitch \u2192 Echo \u2192 Space. SELECT stays within FX while this section is open. Reverb and ICE are alternative modes of the same reverb stage.",
+      "color": ""
+    }
+  ]
+}
